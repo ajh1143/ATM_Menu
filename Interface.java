@@ -76,7 +76,6 @@ public class Interface {
                      System.out.println("Please enter a new name.");
                      String newName = scan.nextLine();
                      user.setName(newName);
-
                  }
                  
                  //Change customer's address
@@ -86,8 +85,8 @@ public class Interface {
                      String newAddress = scan.nextLine();
                      user.setAddress(newAddress.toString());
                  }
-
          }
+         
          //Ask customer if they would like to continue
          System.out.println("Would you like to continue banking? Enter Yes or No");
          String stillBanking = scan.next();
@@ -96,7 +95,7 @@ public class Interface {
          } else if (stillBanking.equalsIgnoreCase("no")) {
              System.out.print("Thank you, your ending balance is: " + user.getBalance());
              menuStart = false;
-         }
+           }
      }
      while (menuStart != false);
      }
