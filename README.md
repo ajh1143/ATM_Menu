@@ -1,4 +1,4 @@
-# ATM_Menu
+# ATM_Simulator
 
 ATM Interface menu.
 
